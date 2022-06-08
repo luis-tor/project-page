@@ -246,8 +246,9 @@ ul{
 }
 
 .project-card img{
-    width: 100%;
-    height: auto;
+    width: 30rem;
+    height: 17rem;
+    object-fit: cover;
     display: block;
 }
 
@@ -261,8 +262,14 @@ ul{
     cursor: pointer;
 }
 
-.project-card a:hover{
+.project-card--button:hover{
     opacity: 0.8;
+}
+
+.button-disable{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    cursor: not-allowed;
 }
 
 .tag{
