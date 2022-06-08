@@ -1,0 +1,62 @@
+.logo-index img{
+    width: 12%;
+}
+
+.nav-index a{
+    font-size: 1.5rem;
+}
+
+.nav{
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+}
+.menu li{
+    float: left;
+}
+.menu a:hover{
+    background-color: transparent;
+    color: var(--support-color);
+
+}
+
+.hamb{
+    display: none;
+}
+
+.header-page{
+    margin-left: 2.4rem;
+}
+
+.contact-main{
+    align-items: center;
+}
+
+.form-contact{
+    padding: 2.4rem;
+    border: 0.1rem solid var(--black-color);
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+
+.form-group{
+    font-weight: bold;
+}
+
+.form-group:nth-child(3){
+    font-weight: normal;    
+}
+
+.contact-button{
+    width: 30rem;
+}
+
+#check{
+    transform: scale(2);
+}
+
+#label-check{
+    padding-left: 2.4rem;
+}

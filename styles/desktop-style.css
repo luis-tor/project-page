@@ -1,0 +1,37 @@
+.logo-index img{
+    width: 10%;
+}
+
+.nav-index a{
+    font-size: 1.7rem;
+}
+
+.header-page{
+    margin-left: 4.8rem;
+}
+
+.form-contact{
+    padding: 2.4rem;
+    border: 0.1rem solid var(--black-color);
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+
+.contact-button{
+    width: 30rem;
+    border: 0.1rem solid var(--support-color);
+    transition: background-color 0.2s ease-in;
+}
+
+.contact-button:hover{
+    background-color: var(--support-color);
+    
+}
+
+#check{
+    transform: scale(2);
+}
+
+#label-check{
+    padding-left: 2.4rem;
+}
